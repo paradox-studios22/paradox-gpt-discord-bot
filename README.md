@@ -12,3 +12,17 @@ This JavaScript script creates a bot for Discord using the discord.js library an
 - `TOKEN`: The Discord bot token. This is unique to each bot, and is used to log the bot into Discord.
 - `API_KEY`: The OpenAI API key. This is used to authenticate requests to the OpenAI API.
 - `CHANNEL_ID`: The ID of the channel in which the bot will listen for and send messages.
+
+```mermaid
+graph TB
+A[Start] --> B{Check: Message from Bot, Correct Channel, Starts with '!'}
+B -- Yes --> C[Ignore Message]
+B -- No --> D[Fetch Previous Messages]
+D --> E[Build Conversation Log]
+E --> F[Send Request to OpenAI]
+F -->|Successful| G[Reply with AI Response]
+F -->|Failed| H[Log Error]
+G --> I[End]
+C --> I
+H --> I
+```
