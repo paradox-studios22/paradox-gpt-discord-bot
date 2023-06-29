@@ -13,7 +13,7 @@ This JavaScript script creates a bot for Discord using the discord.js library an
 - `API_KEY`: The OpenAI API key. This is used to authenticate requests to the OpenAI API.
 - `CHANNEL_ID`: The ID of the channel in which the bot will listen for and send messages.
 
-$$\huge \text {\underline{How to Run}}$$
+# How to Run
 
 1. Install all the dependencies mentioned in the `package.json` file using the command `npm install`.
 2. Make sure the `.env` file has the correct environment variables defined.
