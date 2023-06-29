@@ -1,7 +1,7 @@
 # paradox-gpt-discord-bot
 This JavaScript script creates a bot for Discord using the discord.js library and integrates it with OpenAI's GPT-4 model using OpenAI's Node.js library. The bot listens to incoming messages in a specific Discord channel, carries a conversation with users using OpenAI's model, and responds back in the same channel.
 
-#Prerequisites 
+# Prerequisites 
 
 1. **Node.js**: This project is based on Node.js. Make sure to install Node.js and npm.
 2. **Discord Developer Account**: You will need a Discord developer account to create and manage bots.
